@@ -5,8 +5,8 @@ const Search = () => {
     <>
       {/* mobile */}
       <div className="lg:hidden">
-        <div className="bg-fade grid justify-items-center p-3 rounded-full">
-          <MagnifyingGlassIcon className="w-5 h-5 text-white cursor-pointer" />
+        <div className="bg-fade grid justify-items-center p-2 rounded-full">
+          <MagnifyingGlassIcon className="w-4 h-4 text-white cursor-pointer" />
         </div>
       </div>
 

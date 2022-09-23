@@ -23,7 +23,7 @@ const Header = () => {
     <nav className="fixed top-0 right-0 left-0 border-[1px] border-white border-opacity-10 bg-secondary grid grid-cols-2 md:grid-cols-3 items-center py-1 px-4 z-50">
       {/* facebook logo and navbar */}
       <div className="flex items-center gap-2">
-        <div className="flex items-center gap-2 mr-2">
+        <div className="flex items-center gap-1 mr-1">
           <Logo />
           <Search />
         </div>
@@ -62,7 +62,7 @@ const Header = () => {
       </div>
 
       {/* messages, notif, add, and profile */}
-      <div className="flex items-center gap-2 md:ml-auto">
+      <div className="grid grid-cols-4 items-center gap-2 md:ml-auto">
         <Icon icon={<PlusIcon />} />
         <Icon icon={<ChatBubbleOvalLeftEllipsisIcon />} />
         <Icon icon={<BellIcon />} />

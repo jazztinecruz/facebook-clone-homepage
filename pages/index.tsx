@@ -6,7 +6,7 @@ import PostedPost from '../components/sections/post'
 
 const Home = () => {
   return (
-    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-0 mt-20">
+    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-0 mt-12 md:mt-20">
       {/* left */}
       <div className='hidden lg:block'>
         <LeftPanel/>

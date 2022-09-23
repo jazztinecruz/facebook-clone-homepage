@@ -32,7 +32,7 @@ const Dashboard = () => {
 
       <div className="my-6 grid grid-flow-col gap-2 w-full overflow-hidden">
         {/* create story */}
-        <div className="w-[130px] h-[200px] rounded-md grid grid-rows-[1fr,auto] shadow-secondary shadow-xl">
+        <div className="w-[130px] h-[200px] rounded-md grid grid-rows-[1fr,auto] border-1 border-secondary">
           {/* image */}
           <div className="relative w-full h-full">
             <Image
