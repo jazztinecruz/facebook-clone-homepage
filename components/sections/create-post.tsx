@@ -8,7 +8,7 @@ const Post = () => {
       <div className='grid grid-cols-[auto,1fr] gap-2 items-center border-t-0 border-l-0 border-r-0 border-b-[1px] pb-3 border-white border-opacity-10'>
         <Profile/>
         <div className='bg-fade py-2 px-4 rounded-full'>
-          <span className='text-white text-opacity-60 text-sm'>What's on your mind, Aria?</span>
+          <span className='text-white text-opacity-60 text-sm'>Whats on your mind, Aria?</span>
         </div>
       </div>
 
